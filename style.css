@@ -91,7 +91,7 @@ h3{
 
 @media(max-width:450px){
     body{
-        background-position: initial;
+        background-position: unset;
     }
     h1{
         font-size: 35px;
