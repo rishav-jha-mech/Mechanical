@@ -1,0 +1,120 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/0f/88/3e/0f883e6f5db348671c1e26a7dfd2e5f3.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.root{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* HEADER */
+h1{
+    text-align: center;
+    color: #ff1;
+    padding: 25px 0px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 55px;
+    background-color: rgb(0,1,26);
+    margin-top: 20px;
+}
+/* HEADER */
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color:aqua;
+    padding: 20px;
+}
+h3{
+    font-size: 22px;
+    width: 100%;
+}
+.fa-heart{
+    color: red;
+}
+/* FOOTER */
+
+/* The Table */
+.fowe{
+    font-weight: 600;
+    color: white;
+}
+.MAC331{
+    background-color: #2ab7ca !important;
+}
+.PHC333{
+    background-color: #f6abb6 !important;
+}
+.MEC304{
+    background-color: #ff156f !important;
+}
+.MEC303{
+    background-color: #005b96 !important;
+}
+.MEC302{
+    background-color: #009688 !important;
+}
+.MEC301{
+    background-color:  #3d1e6d  !important;
+}
+.PHS383{
+    background-color: #00b159 !important;
+}
+.Noclass{
+    background-color: rgb(255, 251, 251) !important;
+    font-weight: 500;
+}
+.time,.days{
+    background-color: rgb(0,1,86) !important;
+    color: #ff1;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+/* The Table */
+
+@media(max-width:450px){
+    body{
+        background-position: initial;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .break{
+        display: block;
+    }
+}
+/* Contribute For Future */
+/* 
+.contri h4{
+    color: white;
+    background-color: black;
+    width: 200px;
+    position: fixed;
+    top: 8px;
+    right: 0;
+    padding: 15px;
+    border-right: 5px solid aqua;
+    box-shadow: 0 0 10px 1px rgba(0, 255, 255, 0.384);
+    border-top-left-radius:    45px;
+    border-bottom-left-radius: 45px;
+    letter-spacing: 1px;
+} */
+
+/* Contribute */
